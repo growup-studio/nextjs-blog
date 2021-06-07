@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="453" height="120" viewBox="0 0 453 120">
+  <g id="Group_1" data-name="Group 1" transform="translate(0 -190)">
+    <text id="Grow_up" transform="translate(0 288)" font-size="100" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="0" y="0">Grow_up</tspan></text>
+    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(423 214)" fill="none" stroke="#000" stroke-width="3">
+      <circle cx="15" cy="15" r="15" stroke="none"/>
+      <circle cx="15" cy="15" r="13.5" fill="none"/>
+    </g>
+    <text id="G" transform="translate(429 237)" font-size="22" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="0" y="0">G</tspan></text>
+  </g>
+</svg>
