@@ -1,15 +1,19 @@
 .nav {
-    background-color: white;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    left: 0;
+    padding: 1.6rem 2.4rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .logoWrapper {
-
+    max-width: 8rem;
+    mix-blend-mode: difference;
 }
 
 .logoContent {
-    
-}
-
-.navigation {
-
+    height: auto;
 }

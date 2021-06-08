@@ -1,0 +1,110 @@
+/* styling for menu button */
+.menuButtonWrapper {
+    mix-blend-mode: difference;
+}
+
+.menuButton {
+    background: transparent;
+    border: 0;
+    height: 1.8rem;
+    overflow: hidden;
+    padding: .25rem;
+    position: relative;
+    width: 60px;
+
+    &:hover,
+    &:focus {
+        cursor: pointer;
+        outline: 0;
+    }
+
+    .menuIconLine {
+        background-color: white;
+        content: '';
+        display: block;
+        height: 3px;
+        width: 100%;
+
+        &:first-of-type {
+            margin-bottom: .2rem;
+            right: 0;
+            position: relative;
+        }
+
+        &:last-of-type {
+            width: calc(100% - 12px);
+            margin: 0 auto;
+        }
+    }
+
+    .iconMagnifyingGlass {
+        bottom: 0;
+        left: 0;
+        position: absolute;
+    }
+
+    .iconCross {
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        transform: translateX(100%);
+    }
+}
+
+
+.menuOpened {
+    .menuIconLine:last-of-type {
+        transform: translateX(-6px);
+        transition: transform var(--transition);
+        transition-delay: .05s;
+    }
+
+    .iconMagnifyingGlass {
+        transform: translateX(-100%);
+        transition: transform var(--transition);
+    }
+
+    .iconCross {
+        transform: translateX(0);
+        transition: transform var(--transition);
+    }
+}
+
+.menuClosed {
+    .menuIconLine:last-of-type {
+        transform: translateX(6px);
+        transition: transform var(--transition);
+        transition-delay: .05s;
+    }
+
+    .iconMagnifyingGlass {
+        transform: translateX(0);
+        transition: transform var(--transition);
+    }
+
+    .iconCross {
+        transform: translateX(100%);
+        transition: transform var(--transition);
+    }
+}
+
+/* styling for menu body & container */
+.menuBody {
+    background-color: black;
+    bottom: 0;
+    left: -100%;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.menuBody.menuOpened {
+    transform: translateX(100%);
+    transition: transform var(--transition-menu);
+}
+
+.menuBody.menuClosed {
+    transform: translateX(0);
+    transition: transform var(--transition-menu);
+}

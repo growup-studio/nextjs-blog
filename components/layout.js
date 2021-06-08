@@ -1,18 +1,15 @@
-import Image from 'next/image'
-import Meta from './meta'
-import Nav from './nav'
+import Meta from '../components/Meta'
+import Nav from '../components/Nav'
 import styles from '../styles/layout.module.css'
 
-export default function Layout({ children, home }) {
+function Layout({ children, home }) {
   return (
-    <>
-        <Meta />
-        <Nav />
-        <div className={styles.container}>
-            <main>
-                {children}
-            </main>
-        </div>
-    </>
+        <>
+            <Meta />
+            <Nav />
+            <main className={styles.main}>{children}</main>
+        </>
   )
 }
+
+export default Layout
