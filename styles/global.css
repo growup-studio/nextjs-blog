@@ -32,10 +32,10 @@ img {
 }
 
 :root {
-    --transition: .6s;
-    --transition-menu: 1s;
+    --transition: .4s;
+    --transition-menu: .8s;
     --CubicEaseIn: cubic-bezier(0.33, 1, 0.68, 1);
-    --CubicEaseInOut: cubic-bezier(0.85, 0, 0.15, 1);
+    --CubicEaseInOut: cubic-bezier(0.76, 0, 0.24, 1);
     --white: white;
     --blue: #0070f3;
 }
