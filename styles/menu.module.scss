@@ -54,19 +54,19 @@
     .menuIconLine:last-of-type {
         transform: translateX(-6px);
         transition: transform var(--transition) var(--CubicEaseIn);
-        transition-delay: .65s;
+        transition-delay: .35s;
     }
 
     .iconMagnifyingGlass {
         transform: translateX(-100%);
         transition: transform var(--transition) var(--CubicEaseIn);
-        transition-delay: .6s;
+        transition-delay: .3s;
     }
 
     .iconCross {
         transform: translateX(0);
         transition: transform var(--transition) var(--CubicEaseIn);
-        transition-delay: .6s;
+        transition-delay: .3s;
     }
 }
 
@@ -74,19 +74,19 @@
     .menuIconLine:last-of-type {
         transform: translateX(6px);
         transition: transform var(--transition) var(--CubicEaseIn);
-        transition-delay: .65s;
+        transition-delay: .35s;
     }
 
     .iconMagnifyingGlass {
         transform: translateX(0);
         transition: transform var(--transition) var(--CubicEaseIn);
-        transition-delay: .6s;
+        transition-delay: .3s;
     }
 
     .iconCross {
         transform: translateX(100%);
         transition: transform var(--transition) var(--CubicEaseIn);
-        transition-delay: .6s;
+        transition-delay: .3s;
     }
 }
 
