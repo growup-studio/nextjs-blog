@@ -3,13 +3,13 @@ import Nav from './Nav'
 import styles from '../styles/layout.module.scss'
 
 function Layout({ children, home }) {
-  return (
+    return (
         <>
             <Meta />
             <Nav />
-            <main className={styles.main}>{children}</main>
+                <main className={styles.main}>{children}</main>
         </>
-  )
+    )
 }
 
 export default Layout
