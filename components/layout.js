@@ -2,7 +2,7 @@ import Meta from './Meta'
 import Nav from './Nav'
 import styles from '../styles/layout.module.css'
 
-function Layout({ children, home }) {
+function Layout({ children, home }) { 
   return (
         <>
             <Meta />

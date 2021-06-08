@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-export default function Meta({title, keywords, description}) {
+function Meta({title, keywords, description}) {
     return (
         <Head>
             <link rel="icon" type="image/png" href="/favicon.ico" type="image/x-icon/" />
@@ -18,3 +18,5 @@ Meta.defaultProps = {
     keywords: 'Hjemmesider, netbutikker, grafisk design',
     description: 'Kort beskrivelse af Growup Studio'
 }
+
+export default Meta
