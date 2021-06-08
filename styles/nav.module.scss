@@ -1,0 +1,31 @@
+@import './variables';
+
+.nav {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    left: 0;
+    -webkit-mix-blend-mode: difference;
+   -moz-mix-blend-mode: difference;
+   -o-mix-blend-mode: difference;
+   -ms-mix-blend-mode: difference;
+    mix-blend-mode:difference;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+
+    @media only screen and (min-width: $mob) {
+        padding: 1.6rem 2.4rem;
+    }
+}
+
+.logoWrapper {
+    max-width: 8rem;
+    mix-blend-mode: difference;
+}
+
+.logoContent {
+    height: auto;
+}

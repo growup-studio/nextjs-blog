@@ -1,8 +1,8 @@
 import Meta from './Meta'
 import Nav from './Nav'
-import styles from '../styles/layout.module.css'
+import styles from '../styles/layout.module.scss'
 
-function Layout({ children, home }) { 
+function Layout({ children, home }) {
   return (
         <>
             <Meta />

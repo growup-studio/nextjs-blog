@@ -2,11 +2,11 @@ import utilStyles from '../styles/utils.module.css'
 import Layout, { siteTitle } from '../components/Layout'
 import Link from 'next/link'
 
-export default function Home() {
+function Home() {
   return (
     <Layout home>
           <section className={utilStyles.headingMd}>
-            <p>Hello, I'm Rasmus. Just trying out Next.js</p>
+            <h1>Hello, I'm Rasmus. Just trying out Next.js</h1>
             <p>
               (This is a sample website - you’ll be building a site like this on{' '}
               <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
@@ -15,3 +15,5 @@ export default function Home() {
     </Layout>
   )
 }
+
+export default Home
